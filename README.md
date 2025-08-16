@@ -1,59 +1,64 @@
-🌍 Global Sales Analytics Dashboard
-Interactive Power BI dashboard for global sales analysis. Built during the Data Science Academy course (v1.3), this project explores international sales performance using dynamic filters, KPIs, and visualizations.
+# 🌍 Global Sales Analytics Dashboard
 
-📌 Project Overview
+Interactive Power BI dashboard for global sales analysis.  
+Built during the **Data Science Academy** course, this project explores international sales performance using dynamic filters, KPIs, and visualizations.
+
+---
+
+## 📌 Project Overview
+
 This dashboard provides insights into:
 
-Total sales and profit across categories and countries
+- Total sales and profit across categories and countries  
+- Discount patterns by category and subcategory  
+- Sales distribution by customer segment and priority level  
+- Interactive filters for year, segment, and country  
+- Map visualization of average sales by region  
 
-Discount patterns by category and subcategory
+---
 
-Sales distribution by customer segment and priority level
+## 📊 Key Metrics & Visuals
 
-Interactive filters for year, segment, and country
+| Metric            | Value                          |
+|-------------------|--------------------------------|
+| **Total Sales**   | R$ 12.64 Mi                    |
+| **Total Profit**  | R$ 1.47 Mi                     |
+| **Categories**    | Furniture, Technology, Supplies |
+| **Segments**      | Consumer, Corporate, Home Office |
+| **Priority Levels** | Critical, High, Medium, Low   |
 
-Map visualization of average sales by region
+**Visuals include:**
 
-📊 Key Metrics & Visuals
-Metric	Value
-Total Sales	R$ 12.64 Mi
-Total Profit	R$ 1.47 Mi
-Categories	Furniture, Technology, Supplies
-Segments	Consumer, Corporate, Home Office
-Priority Levels	Critical, High, Medium, Low
-Visuals include:
+- 📊 Bar charts (discounts by category/subcategory)  
+- 🥧 Pie chart (sales by category)  
+- 🗺️ Map (average sales by country)  
+- 📌 KPIs and slicers for dynamic exploration  
 
-Bar charts (discounts by category/subcategory)
+---
 
-Pie chart (sales by category)
+## 🧹 Data Preparation
 
-Map (average sales by country)
+- Cleaned and translated dataset for global readability  
+- Field naming aligned with international dashboard standards  
+- Organized structure for recruiter-friendly navigation  
+- Built using **Power BI Desktop** (`.pbix` file)  
 
-KPIs and slicers for dynamic exploration
+---
 
-🧹 Data Preparation
-Cleaned and translated dataset for global readability
+## 📁 File Structure
 
-Field naming aligned with international dashboard standards
+Global_Sales_Analytics_Dashboard/ │ ├── Global_Sales_Analytics_Dashboard.pbix ├── Global_Sales_Analytics_dataset.csv ├── README.md └── images/ └── Global_Sales_Analytics_Dashboard.png  
 
-Organized structure for recruiter-friendly navigation
+---
 
-Built using Power BI Desktop (.pbix file)
+## 🚀 How to Use
 
-📁 File Structure
-Code
-Global_Sales_Analytics_Dashboard/
-│
-├── Global_Sales_Analytics_Dashboard.pbix
-├── README.md
-└── /images
+1. Download the `.pbix` file  
+2. Open with **Power BI Desktop**  
+3. Use filters to explore sales data by year, segment, and country  
 
-🚀 How to Use
-Download the .pbix file
+---
 
-Open with Power BI Desktop
+## 📚 Credits
 
-Use filters to explore sales data by year, segment, and country
-
-📚 Credits
-Developed as part of the Data Science Academy course – Power BI for Bussiness Intelligence module, version 1.3.
+Developed as part of the **Data Science Academy (https://www.datascienceacademy.com.br)** course – *Power BI for Business Intelligence* module.
